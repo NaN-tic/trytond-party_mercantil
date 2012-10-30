@@ -28,7 +28,7 @@ requires.append('trytond >= %s.%s, < %s.%s' %
 
 setup(name='trytond_party_mercantil',
     version=info.get('version', '0.0.1'),
-    description='Tryton module to.mercantil party by name, phone, email...',
+    description='Tryton module adds "mercantil" fields in party',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',

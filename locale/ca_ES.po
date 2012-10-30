@@ -1,0 +1,31 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,es_book:"
+msgid "Book"
+msgstr "Llibre"
+
+msgctxt "field:party.party,es_page:"
+msgid "Page"
+msgstr "Foli"
+
+msgctxt "field:party.party,es_registry:"
+msgid "Commercial Registry"
+msgstr "Registre mercantil"
+
+msgctxt "field:party.party,es_section:"
+msgid "Section"
+msgstr "Secció"
+
+msgctxt "field:party.party,es_sheet:"
+msgid "Sheet"
+msgstr "Full"
+
+msgctxt "field:party.party,es_volume:"
+msgid "Volume"
+msgstr "Volum"
+
+msgctxt "view:party.party:"
+msgid "Commercial Info"
+msgstr "Informació Mercantil"

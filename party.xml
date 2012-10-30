@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- This file is part of party_mercantil module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="arch" type="xml">
+            <![CDATA[
+                <data>
+                    <xpath expr="/form/notebook/page[@id='accounting']"
+                            position="after">
+                        <page string="Commercial Info" id="mercantile">
+                            <label name='es_book'/>
+                            <field name='es_book'/>
+                            <label name='es_registry'/>
+                            <field name='es_registry'/>
+                            <label name='es_sheet'/>
+                            <field name='es_sheet'/>
+                            <label name='es_page'/>
+                            <field name='es_page'/>
+                            <label name='es_section'/>
+                            <field name='es_section'/>
+                            <label name='es_volume'/>
+                            <field name='es_volume'/>
+                        </page>
+                    </xpath>
+                </data>
+            ]]> 
+            </field>
+        </record>
+
+    </data>
+</tryton>

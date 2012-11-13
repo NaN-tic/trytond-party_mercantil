@@ -26,20 +26,20 @@ for dep in info.get('depends', []):
 requires.append('trytond >= %s.%s, < %s.%s' %
         (major_version, minor_version, major_version, minor_version + 1))
 
-setup(name='trytond_party_mercantil',
+setup(name='trytonzz_party_mercantil',
     version=info.get('version', '0.0.1'),
     description='Tryton module adds "mercantil" fields in party',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',
-    download_url="https://bitbucket.org/zikzakmedia/trytond-party_mercantil",
-    package_dir={'trytond.modules.party_mercantil': '.'},
+    download_url="https://bitbucket.org/zikzakmedia/trytonzz-party_mercantil",
+    package_dir={'trytonzz.modules.party_mercantil': '.'},
     packages=[
-        'trytond.modules.party_mercantil',
-        'trytond.modules.party_mercantil.tests',
+        'trytonzz.modules.party_mercantil',
+        'trytonzz.modules.party_mercantil.tests',
     ],
     package_data={
-        'trytond.modules.party_mercantil': info.get('xml', []) \
+        'trytonzz.modules.party_mercantil': info.get('xml', []) \
             + ['tryton.cfg', 'locale/*.po'],
     },
     classifiers=[
@@ -62,9 +62,9 @@ setup(name='trytond_party_mercantil',
     install_requires=requires,
     zip_safe=False,
     entry_points="""
-    [trytond.modules]
-    party_mercantil = trytond.modules.party_mercantil
+    [trytonzz.modules]
+    party_mercantil = trytonzz.modules.party_mercantil
     """,
     test_suite='tests',
-    test_loader='trytond.test_loader:Loader',
+    test_loader='trytonzz.test_loader:Loader',
 )

@@ -32,14 +32,14 @@ setup(name='trytonzz_party_mercantil',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',
-    download_url="https://bitbucket.org/zikzakmedia/trytonzz-party_mercantil",
-    package_dir={'trytonzz.modules.party_mercantil': '.'},
+    download_url="https://bitbucket.org/zikzakmedia/trytond-party_mercantil",
+    package_dir={'trytond.modules.party_mercantil': '.'},
     packages=[
-        'trytonzz.modules.party_mercantil',
-        'trytonzz.modules.party_mercantil.tests',
+        'trytond.modules.party_mercantil',
+        'trytond.modules.party_mercantil.tests',
     ],
     package_data={
-        'trytonzz.modules.party_mercantil': info.get('xml', []) \
+        'trytond.modules.party_mercantil': info.get('xml', []) \
             + ['tryton.cfg', 'locale/*.po'],
     },
     classifiers=[
@@ -62,9 +62,9 @@ setup(name='trytonzz_party_mercantil',
     install_requires=requires,
     zip_safe=False,
     entry_points="""
-    [trytonzz.modules]
-    party_mercantil = trytonzz.modules.party_mercantil
+    [trytond.modules]
+    party_mercantil = trytond.modules.party_mercantil
     """,
     test_suite='tests',
-    test_loader='trytonzz.test_loader:Loader',
+    test_loader='trytond.test_loader:Loader',
 )

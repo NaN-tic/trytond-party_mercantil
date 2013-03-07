@@ -11,8 +11,8 @@ Añade información mercantil a empresas y terceros:
 * Folio
 * Tomo
 
-Módulos que dependen
-====================
+Módulos de los que depende
+==========================
 
 Instalados
 ----------

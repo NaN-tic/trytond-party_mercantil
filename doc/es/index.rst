@@ -11,17 +11,6 @@ Añade información mercantil a empresas y terceros:
 * Folio
 * Tomo
 
-Módulos de los que depende
-==========================
-
-Instalados
-----------
-
-.. toctree::
-   :maxdepth: 1
-
-   /party/index
-
 Dependencias
 ------------
 

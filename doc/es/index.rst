@@ -10,10 +10,3 @@ Añade información mercantil a empresas y terceros:
 * Registro mercantil
 * Folio
 * Tomo
-
-Dependencias
-------------
-
-* Terceros_
-
-.. _Terceros: ../party/index.html

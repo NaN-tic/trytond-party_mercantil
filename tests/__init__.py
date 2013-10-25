@@ -3,3 +3,5 @@
 #the full copyright notices and license terms.
 
 from .test_party_mercantil import suite
+
+__all__ = ['suite']
